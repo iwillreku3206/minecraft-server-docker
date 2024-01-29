@@ -12,7 +12,7 @@ EXPOSE 25575
 COPY ./scripts/install-pkgs.sh /install.sh
 RUN /install.sh
 COPY ./scripts /scripts
-COPY ./bashrc /root/.bashrc
+COPY ./bashrc /etc/bash.bashrc
 
 
 ENTRYPOINT ["/scripts/start.sh"]
