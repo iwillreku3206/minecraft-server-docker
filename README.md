@@ -28,6 +28,7 @@ docker run -d \
 | `NGROK_ENABLED` | Whether or not to enable ngrok. | `false` |
 | `JAVA_VERSION` | The version of Java to use. | `8` |
 | `JAVA_MEMORY_ALLOCATION` | The amount of memory to allocate to the server. | `4G` |
+| `OVERRIDE_START_SCRIPT` | Override start script with a custom script | `""`|
 
 ## Volumes
 | Volume | Description |
